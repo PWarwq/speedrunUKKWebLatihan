@@ -10,6 +10,6 @@ Route::get('/index', function () {
     return view('index');
 });
 
-Route::get('/create', function() {
+Route::get('/index/create', function() {
     return view('create');
-});
+})->name('index.create');
