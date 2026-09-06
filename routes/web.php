@@ -8,8 +8,12 @@ Route::get('/', function () {
 
 Route::get('/index', function () {
     return view('index');
-});
+})->name('index');
 
 Route::get('/create', function() {
     return view('create');
-});
+})->name('create');
+
+Route::get('/login', function(){
+    return view('login');
+})->name('login');
