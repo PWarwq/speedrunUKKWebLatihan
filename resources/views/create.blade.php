@@ -8,7 +8,6 @@
     <title>Create</title>
 </head>
 <body>
-    {{-- Header --}}
     <div class="flex min-h-screen flex-col">
         <x-navbar />
 
@@ -29,6 +28,12 @@
                     <option value="XII TKJ">XII TKJ</option>
                     <option value="XII AKL">XII AKL</option>
                     <option value="XII BiD">XII BiD</option>
+                </select>
+
+                <select name="kelas" id="kelas" class="bg-white shadow-lg px-3 py-2 rounded-lg w-80" >
+                    <option value="" disabled selected>Gender</option>
+                    <option value="lakiLaki">Laki-Laki</option>
+                    <option value="perempuan">Perempuan</option>
                 </select>
                 <button type="submit" class="bg-blue-500 shadow-lg px-5 py-3 rounded-lg font-semibold text-white w-60">Bikin</button>
             </form>            

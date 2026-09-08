@@ -21,6 +21,7 @@
                             <th class="text-center px-4 py-4">No</th>
                             <th class="text-center px-4 py-4">Nama</th>
                             <th class="text-center px-4 py-4">Kelas</th>
+                            <th class="text-center px-4 py-4">Gender</th>
                             <th class="text-center px-4 py-4">Aksi</th>
                         </tr>
                     </thead>
@@ -29,6 +30,7 @@
                             <td class="text-center px-4 py-4">1</td>
                             <td class="text-center px-4 py-4">Charles Marselino</td>
                             <td class="text-center px-4 py-4">XII TKJ 2</td>
+                            <td class="text-center px-4 py-4">Laki-Laki</td>
 
                             <td class="px-6 py-4">
                                 <div class="flex gap-2 justify-center">
