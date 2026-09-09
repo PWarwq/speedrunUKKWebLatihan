@@ -35,7 +35,7 @@
                             <td class="px-6 py-4">
                                 <div class="flex gap-2 justify-center">
                                     <a href="#" class="bg-blue-500 rounded-lg text-white px-3 py-2">Read</a>
-                                    <a href="{{ route('update') }}" class="bg-yellow-500 rounded-lg text-white px-3 py-2">Update</a>
+                                    <a href="{{ route('students.update') }}" class="bg-yellow-500 rounded-lg text-white px-3 py-2">Update</a>
                                     <a href="#" class="bg-red-500 rounded-lg text-white px-3 py-2">Delete</a>
                                 </div>
                             </td>
